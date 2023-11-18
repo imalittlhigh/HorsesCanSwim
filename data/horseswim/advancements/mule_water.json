@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "vehicle": {
+              "type": "minecraft:mule"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "horseswim:swim"
+    }
+  }
+  

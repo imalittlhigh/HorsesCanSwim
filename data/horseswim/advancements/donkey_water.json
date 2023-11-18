@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "vehicle": {
+              "type": "minecraft:donkey"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "horseswim:swim"
+    }
+  }
+  

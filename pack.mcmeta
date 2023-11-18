@@ -1,0 +1,21 @@
+{
+	"pack": {
+	  "pack_format": 18,
+	  "description": {
+		"text": "Horses can Swim",
+		"color": "gold",
+		"extra": [
+		  {
+			"text": " by ",
+			"color": "aqua"
+		  },
+		  {
+			"text": "imalittlhigh",
+			"color": "gold",
+			"italic": true
+		  }
+		]
+	  }
+	}
+  }
+  
