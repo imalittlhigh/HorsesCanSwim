@@ -13,5 +13,5 @@ advancement revoke @s only horseswim:mule_water
 advancement revoke @s only horseswim:camel_water
 
 
-execute on vehicle at @s anchored feet if block ~ ~ ~ water run effect give @s slow_falling 1 6 true
-execute on vehicle at @s anchored feet if block ~ ~-0.1 ~ water run effect give @s slow_falling 1 6 true
+execute positioned ~ ~-1 ~ as @e[type=!player,distance=..1,limit=1,sort=nearest] at @s anchored feet if block ~ ~ ~ water run effect give @s slow_falling 1 6 true
+execute positioned ~ ~-1 ~ as @e[type=!player,distance=..1,limit=1,sort=nearest] at @s anchored feet if block ~ ~-0.1 ~ water run effect give @s slow_falling 1 6 true
